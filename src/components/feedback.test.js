@@ -5,5 +5,6 @@ import Feedback from './feedback';
 
 describe('<Feedback />', () => {
     it('Renders without crashing', () => {
-        shallow(<Feedback />);
-    });  
+        shallow(<Feedback guessCount='5' feedback='Good'/>);
+    }); 
+  });

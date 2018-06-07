@@ -1,9 +1,10 @@
 import React from 'react';
 import {shallow, mount} from 'enzyme';
 
-import GuessForm from './guess-form';
+import Header from './header';
 
-describe('<GuessForm />', () => {
+describe('<Header />', () => {
     it('Renders without crashing', () => {
-        shallow(<GuessForm />);
+        shallow(<Header />);
     });
+ });  
